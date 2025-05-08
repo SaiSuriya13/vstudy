@@ -43,7 +43,7 @@ const Sidebar = () => {
                     width={24}
                     height={24}
                     priority
-                    className="group-hover:drop-shadow-glow transition-transform duration-200 group-hover:scale-110"
+                    className="transition-transform duration-200 group-hover:scale-110 group-hover:drop-shadow-md"
                   />
                   <p className="text-lg font-semibold max-lg:hidden">{item.label}</p>
                 </Link>
@@ -68,7 +68,7 @@ const Sidebar = () => {
               width={24}
               height={24}
               priority
-              className="group-hover:drop-shadow-glow transition-transform duration-200 group-hover:scale-110"
+              className="transition-transform duration-200 group-hover:scale-110 group-hover:drop-shadow-md"
             />
 
             <p className="text-lg font-semibold max-lg:hidden">Focus Mode</p>
@@ -87,7 +87,7 @@ const Sidebar = () => {
               width={24}
               height={24}
               priority
-              className="group-hover:drop-shadow-glow transition-transform duration-200 group-hover:scale-110"
+              className="transition-transform duration-200 group-hover:scale-110 group-hover:drop-shadow-md"
             />
             <p className="text-lg font-semibold text-white max-lg:hidden">Study on YouTube</p>
           </a>
