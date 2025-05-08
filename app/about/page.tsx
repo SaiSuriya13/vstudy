@@ -43,41 +43,38 @@ const AboutPage: React.FC = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.5 }}
-          className="parent w-80"
+          className="w-80"
         >
-          <div className="card relative">
-            <div className="date-box">
-              <span className="month">SAI</span>
-              <span className="date">13</span>
+          <div className="relative bg-blue-900 p-6 rounded-xl shadow-md">
+            <div className="absolute top-0 left-0 p-2 bg-blue-800 rounded-tl-xl text-white text-sm">
+              <span className="font-bold">SAI</span> 13
             </div>
-            <div className="content-box bg-blue-900 p-6 rounded-xl shadow-md">
-              <h2 className="card-title mb-3 text-2xl font-bold text-white">Sai Suriya</h2>
-              <div className="flex justify-center gap-6 text-2xl">
-                <a
-                  href="https://www.linkedin.com/in/sai-suriya-k-2477b9305/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="icon-link hover:text-blue-400 transition-transform transform hover:scale-110"
-                >
-                  <FaLinkedin />
-                </a>
-                <a
-                  href="https://www.instagram.com/_sai_i3/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="icon-link hover:text-pink-400 transition-transform transform hover:scale-110"
-                >
-                  <FaInstagram />
-                </a>
-                <a
-                  href="https://github.com/SaiSuriya13"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="icon-link hover:text-gray-400 transition-transform transform hover:scale-110"
-                >
-                  <FaGithub />
-                </a>
-              </div>
+            <h2 className="card-title mb-3 text-2xl font-bold text-white">Sai Suriya</h2>
+            <div className="flex justify-center gap-6 text-2xl">
+              <a
+                href="https://www.linkedin.com/in/sai-suriya-k-2477b9305/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-link hover:text-blue-400 transition-transform transform hover:scale-110"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="https://www.instagram.com/_sai_i3/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-link hover:text-pink-400 transition-transform transform hover:scale-110"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://github.com/SaiSuriya13"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-link hover:text-gray-400 transition-transform transform hover:scale-110"
+              >
+                <FaGithub />
+              </a>
             </div>
           </div>
         </motion.div>
@@ -87,41 +84,38 @@ const AboutPage: React.FC = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.7 }}
-          className="parent w-80"
+          className="w-80"
         >
-          <div className="card relative">
-            <div className="date-box">
-              <span className="month">MANI</span>
-              <span className="date">98</span>
+          <div className="relative bg-green-700 p-6 rounded-xl shadow-md">
+            <div className="absolute top-0 left-0 p-2 bg-green-600 rounded-tl-xl text-white text-sm">
+              <span className="font-bold">MANI</span> 98
             </div>
-            <div className="content-box bg-green-700 p-6 rounded-xl shadow-md">
-              <h2 className="card-title mb-3 text-2xl font-bold text-white">Manigandan</h2>
-              <div className="flex justify-center gap-6 text-2xl">
-                <a
-                  href="https://www.linkedin.com/in/manigandan-p-751198267/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="icon-link hover:text-blue-400 transition-transform transform hover:scale-110"
-                >
-                  <FaLinkedin />
-                </a>
-                <a
-                  href="https://www.instagram.com/king._.of._my_world/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="icon-link hover:text-pink-400 transition-transform transform hover:scale-110"
-                >
-                  <FaInstagram />
-                </a>
-                <a
-                  href="https://github.com/manigandan9845"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="icon-link hover:text-gray-400 transition-transform transform hover:scale-110"
-                >
-                  <FaGithub />
-                </a>
-              </div>
+            <h2 className="card-title mb-3 text-2xl font-bold text-white">Manigandan</h2>
+            <div className="flex justify-center gap-6 text-2xl">
+              <a
+                href="https://www.linkedin.com/in/manigandan-p-751198267/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-link hover:text-blue-400 transition-transform transform hover:scale-110"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="https://www.instagram.com/king._.of._my_world/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-link hover:text-pink-400 transition-transform transform hover:scale-110"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://github.com/manigandan9845"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-link hover:text-gray-400 transition-transform transform hover:scale-110"
+              >
+                <FaGithub />
+              </a>
             </div>
           </div>
         </motion.div>
