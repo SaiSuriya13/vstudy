@@ -23,10 +23,11 @@ const WelcomePage: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="group relative cursor-pointer border-none bg-transparent p-0 font-mono text-base font-light uppercase outline-none"
             aria-label={`Navigate to ${label} page`}
+            style={{ backgroundImage: `linear-gradient(to right, ${gradientStart}, ${gradientEnd})` }} // Applied inline gradient
         >
             <span className="duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] group-hover:duration-[250ms] absolute left-0 top-0 size-full translate-y-0.5 rounded-lg bg-black bg-opacity/25 transition group-hover:translate-y-1 group-active:translate-y-px"></span>
             <span className="absolute left-0 top-0 size-full rounded-lg bg-gradient-to-l from-[hsl(217,33%,16%)] via-[hsl(217,33%,32%)] to-[hsl(217,33%,16%)]"></span>
-            <div className={`duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] group-hover:duration-[250ms] relative flex -translate-y-1 items-center justify-between gap-3 rounded-lg bg-gradient-to-r from-[${gradientStart}] to-[${gradientEnd}] px-6 py-3 text-lg text-white brightness-100 transition group-hover:-translate-y-1.5 group-hover:brightness-110 group-active:-translate-y-0.5`}>
+            <div className="duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] group-hover:duration-[250ms] relative flex -translate-y-1 items-center justify-between gap-3 rounded-lg px-6 py-3 text-lg text-white brightness-100 transition group-hover:-translate-y-1.5 group-hover:brightness-110 group-active:-translate-y-0.5">
                 <span className="select-none">{label}</span>
             </div>
         </motion.button>
